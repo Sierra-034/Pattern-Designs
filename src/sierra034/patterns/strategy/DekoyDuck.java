@@ -9,21 +9,21 @@ package sierra034.patterns.strategy;
  *
  * @author Samuel Gomez
  */
-public class RubberDuck extends Duck {
+public class DekoyDuck extends Duck {
     
     @Override 
     public void quack() {
-        System.out.println("Squeak");
+        //Override to do nothing
     }
     
-    @Override 
+    @Override
     public void fly() {
-        //Override to do nothing
+        //Override to do nothing 
     }
 
     @Override
     public void display() {
-        System.out.println("Looks like a RubberDuck");
+        System.out.println("Looks like Dekoy duck");
     }
     
 }
