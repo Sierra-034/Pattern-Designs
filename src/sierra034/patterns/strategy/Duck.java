@@ -11,11 +11,20 @@ package sierra034.patterns.strategy;
  */
 public abstract class Duck {
     
+    protected FlyBehavior flyBehavior;
+    protected QuackBehavior quackBehavior;
+    
+    public abstract void display();
     
     public void swim(){
         System.out.println("Swimming");
     }
     
+    public void performQuack() {
+        quackBehavior.quack();
+    }
     
-    public abstract void display();
+    public void performFly() {
+        flyBehavior.fly();
+    }
 }
