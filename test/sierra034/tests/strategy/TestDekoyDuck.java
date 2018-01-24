@@ -16,7 +16,7 @@ import sierra034.patterns.strategy.DekoyDuck;
 public class TestDekoyDuck extends TestDuck {
     
     public TestDekoyDuck() {
-        this.duckToTest = new DekoyDuck();
+        duckToTest = new DekoyDuck();
     }
     
 }

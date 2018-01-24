@@ -16,7 +16,7 @@ import sierra034.patterns.strategy.MallardDuck;
 public class TestMallardDuck extends TestDuck {
     
     public TestMallardDuck() {
-        this.duckToTest = new MallardDuck();
+        duckToTest = new MallardDuck();
     }
     
 }

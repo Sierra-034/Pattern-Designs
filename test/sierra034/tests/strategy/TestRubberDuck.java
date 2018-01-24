@@ -16,7 +16,7 @@ import sierra034.patterns.strategy.RubberDuck;
 public class TestRubberDuck extends TestDuck{
     
     public TestRubberDuck() {
-        this.duckToTest = new RubberDuck();
+        duckToTest = new RubberDuck();
     }
     
 }

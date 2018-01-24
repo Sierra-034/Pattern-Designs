@@ -16,7 +16,7 @@ import sierra034.patterns.strategy.RedheadDuck;
 public class TestRedheadDuck extends TestDuck {
     
     public TestRedheadDuck() {
-        this.duckToTest = new RedheadDuck();        
+        duckToTest = new RedheadDuck();        
     }
     
 }

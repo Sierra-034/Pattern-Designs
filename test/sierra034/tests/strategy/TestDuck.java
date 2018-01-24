@@ -8,6 +8,8 @@ package sierra034.tests.strategy;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import sierra034.patterns.strategy.Duck;
+import sierra034.patterns.strategy.FlyBehavior;
+import sierra034.patterns.strategy.QuackBehavior;
 
 /**
  *
@@ -18,23 +20,23 @@ public class TestDuck {
     protected Duck duckToTest;
     
     @Test
-    public void testQuack(){
-        this.duckToTest.quack();
+    public void testPerformQuack(){
+        duckToTest.performQuack();
     }
     
     @Test
     public void testSwim(){
-        this.duckToTest.swim();
+        duckToTest.swim();
     }   
     
     @Test
-    public void testFly(){
-        this.duckToTest.fly();
+    public void testPerformFly(){
+        duckToTest.performFly();
     }   
     
     @Test
     public void testDisplay(){
-        this.duckToTest.display();
+        duckToTest.display();
     }
     
 }
