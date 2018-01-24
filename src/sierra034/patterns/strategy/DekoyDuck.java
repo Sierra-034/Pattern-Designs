@@ -11,15 +11,7 @@ package sierra034.patterns.strategy;
  */
 public class DekoyDuck extends Duck {
     
-    @Override 
-    public void quack() {
-        //Override to do nothing
-    }
     
-    @Override
-    public void fly() {
-        //Override to do nothing 
-    }
 
     @Override
     public void display() {

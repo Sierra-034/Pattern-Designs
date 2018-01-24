@@ -11,15 +11,7 @@ package sierra034.patterns.strategy;
  */
 public class RubberDuck extends Duck {
     
-    @Override 
-    public void quack() {
-        System.out.println("Squeak");
-    }
     
-    @Override 
-    public void fly() {
-        //Override to do nothing
-    }
 
     @Override
     public void display() {
