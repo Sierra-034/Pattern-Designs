@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.strategy;
+package sierra034.patterns.strategy.gameCharacters;
 
 /**
  *
  * @author Samuel Gomez
  */
-public class FlyWithWings implements FlyBehavior {
+public class BowAndArrowBehavior implements WeaponBehavior {
 
     @Override
-    public void fly() {
-        System.out.println("Fly with wings");
+    public void useWeapon() {
+        System.out.println("Throwing an arrow with a bow");
     }
     
 }
