@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.strategy;
+package sierra034.patterns.strategy.simUDuck;
 
 /**
  *
  * @author Samuel Gomez
  */
-public class MuteQuack implements QuackBehavior {
-
-    @Override
-    public void quack() {
-        //Override to do nothing 
-    }
+public interface FlyBehavior {
     
+    void fly(); 
 }

@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.tests.strategy;
+package sierra034.tests.strategy.dimUDuck;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import sierra034.patterns.strategy.DekoyDuck;
+import sierra034.patterns.strategy.simUDuck.MallardDuck;
 
 /**
  *
  * @author Samuel Gomez
  */
-public class TestDekoyDuck extends TestDuck {
+public class TestMallardDuck extends TestDuck {
     
-    public TestDekoyDuck() {
-        duckToTest = new DekoyDuck();
+    public TestMallardDuck() {
+        duckToTest = new MallardDuck();
     }
     
 }

@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.tests.strategy;
+package sierra034.tests.strategy.dimUDuck;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import sierra034.patterns.strategy.RubberDuck;
+import sierra034.patterns.strategy.simUDuck.RubberDuck;
 
 /**
  *

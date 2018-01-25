@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.strategy;
+package sierra034.patterns.strategy.gameCharacters;
 
 /**
  *
  * @author Samuel Gomez
  */
-public class Quack implements QuackBehavior {
-
-    @Override
-    public void quack() {
-        System.out.println("Quack");
-    }
+public class Troll extends Character {
     
+    public Troll() {
+        this.weapon = new AxeBehavior();
+    }
 }

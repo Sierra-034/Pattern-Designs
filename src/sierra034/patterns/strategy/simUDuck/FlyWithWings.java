@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.strategy;
+package sierra034.patterns.strategy.simUDuck;
 
 /**
  *
  * @author Samuel Gomez
  */
-public class FlyNoWay implements FlyBehavior {
+public class FlyWithWings implements FlyBehavior {
 
     @Override
     public void fly() {
-        //Override to do nothing
+        System.out.println("Fly with wings");
     }
     
 }

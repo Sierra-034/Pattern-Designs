@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.strategy;
+package sierra034.patterns.strategy.gameCharacters;
 
 /**
  *
  * @author Samuel Gomez
  */
-public interface QuackBehavior {
+public class Queen extends Character {
     
-    void quack();
+    public Queen() {
+        this.weapon = new KnifeBehavior();
+    }
 }

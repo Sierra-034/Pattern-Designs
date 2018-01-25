@@ -3,21 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.strategy;
+package sierra034.patterns.strategy.simUDuck;
 
 /**
  *
  * @author Samuel Gomez
  */
-public class ModelDuck extends Duck {
+public class RubberDuck extends Duck {
     
-    public ModelDuck() {
+    public RubberDuck() {
         flyBehavior = new FlyNoWay();
-        quackBehavior = new Quack();
+        quackBehavior = new Squeak();
     }
 
     @Override
     public void display() {
-        System.out.println("Looks like a Model duck");
+        System.out.println("Looks like a RubberDuck");
     }
+    
 }
