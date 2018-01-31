@@ -13,7 +13,7 @@ public class ConcreteStrategyB implements Strategy {
 
     @Override
     public void operation() {
-        System.out.println("ConcreteStrategyB operation");
+        System.out.print("B operation");
     }
     
 }
