@@ -10,10 +10,21 @@ package sierra034.patterns.observer.definition;
  * @author Samuel Gomez
  */
 public class ConcreteObserver implements Observer {
+    
+    public ConcreteObserver() { }
+    
+    public ConcreteObserver(Observable subject) {
+        subject.addObserver(this);
+    }
 
     @Override
     public void handleEvent() {
-        System.out.println("Handling event ConcreteObserver");
+        System.out.print("Handling event ConcreteObserver");
+    }
+
+    @Override
+    public void registerTo(Observable subject) {
+        subject.addObserver(this);
     }
     
 }

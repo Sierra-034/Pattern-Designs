@@ -11,5 +11,6 @@ package sierra034.patterns.observer.definition;
  */
 public interface Observer {
     
+    void registerTo(Observable subject);
     void handleEvent();
 }
