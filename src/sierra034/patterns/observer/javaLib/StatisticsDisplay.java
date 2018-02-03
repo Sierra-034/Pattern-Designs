@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.pattern.observer.javaLib;
+package sierra034.patterns.observer.javaLib;
 
 import java.util.Observable;
 import java.util.Observer;
