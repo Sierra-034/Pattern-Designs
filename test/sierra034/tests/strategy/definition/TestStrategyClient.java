@@ -12,9 +12,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.BeforeClass;
-import sierra034.patterns.strategy.definition.ConcreteStrategyA;
-import sierra034.patterns.strategy.definition.ConcreteStrategyB;
-import sierra034.patterns.strategy.definition.StrategyClient;
+import sierra034.strategy.definition.ConcreteStrategyA;
+import sierra034.strategy.definition.ConcreteStrategyB;
+import sierra034.strategy.definition.StrategyClient;
 
 /**
  *

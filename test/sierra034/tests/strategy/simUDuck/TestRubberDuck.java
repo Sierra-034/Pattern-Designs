@@ -7,7 +7,7 @@ package sierra034.tests.strategy.simUDuck;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import sierra034.patterns.strategy.simUDuck.RubberDuck;
+import sierra034.strategy.simUDuck.RubberDuck;
 
 /**
  *
