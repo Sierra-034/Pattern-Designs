@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.observer.weatherStation;
+package sierra034.observer.weatherStation;
 
 /**
  *
  * @author Samuel Gomez
  */
-public interface DisplayElement {
+public interface Observer {
     
-    void display();
+    void update( float temp, float humidity, float pressure );
 }
