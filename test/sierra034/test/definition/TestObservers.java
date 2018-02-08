@@ -11,10 +11,10 @@ import org.junit.After;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Before;
-import sierra034.patterns.observer.definition.ConcreteObservable;
-import sierra034.patterns.observer.definition.ConcreteObserver;
-import sierra034.patterns.observer.definition.Observable;
-import sierra034.patterns.observer.definition.Observer;
+import sierra034.observer.definition.ConcreteObservable;
+import sierra034.observer.definition.ConcreteObserver;
+import sierra034.observer.definition.Observable;
+import sierra034.observer.definition.Observer;
 
 /**
  *

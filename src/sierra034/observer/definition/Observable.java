@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.observer.weatherStation;
+package sierra034.observer.definition;
 
 /**
  *
  * @author Samuel Gomez
  */
-public interface Subject {
+public interface Observable {
     
-    void registerObserver( Observer o );
-    void removeObserver( Observer o );
+    void addObserver(Observer o);
+    void removeObserver(Observer o);
     void notifyObservers();
 }
