@@ -9,13 +9,15 @@ package sierra034.decorator.starbuzzcoffee;
  *
  * @author Samuel Gomez
  */
-public abstract class Beverage {
+public class Americano extends Beverage {
     
-    protected String description = "Unknown Beverage";
-    
-    public String getDescription() {
-        return description;
+    public Americano() {
+        description = "Americano";
+    }
+
+    @Override
+    public double cost() {
+        return 2;
     }
     
-    public abstract double cost();
 }
