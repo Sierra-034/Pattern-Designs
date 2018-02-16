@@ -19,6 +19,10 @@ public class TestDecorator {
         americano = new Mocha(americano);
         String description = americano.getDescription();
         System.out.println(description);
+        
+        americano = new Milk(americano);
+        description = americano.getDescription();
+        System.out.println(description);
     }
     
 }
