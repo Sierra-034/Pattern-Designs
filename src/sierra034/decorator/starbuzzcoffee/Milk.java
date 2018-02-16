@@ -9,13 +9,20 @@ package sierra034.decorator.starbuzzcoffee;
  *
  * @author Samuel Gomez
  */
-public abstract class Beverage {
+public class Milk extends CondimentDecorator {
     
-    protected String description = "Unknown Beverage";
-    
+    public Milk(Beverage beverage) {
+        super(beverage);
+    }
+
+    @Override
     public String getDescription() {
-        return description;
+        return decorated.getDescription() + ", Milk";
+    }
+
+    @Override
+    public double cost() {
+        return decorated.cost() + 1;
     }
     
-    public abstract double cost();
 }
