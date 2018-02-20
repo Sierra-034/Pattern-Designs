@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.strategy;
+package sierra034.factory.pizzastore;
 
 /**
  *
  * @author Samuel Gomez
  */
-public class RedheadDuck extends Duck {
+public class Testing {
 
-    @Override
-    public void display() {
-        System.out.println("Looks like a Redhead");
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
     
 }

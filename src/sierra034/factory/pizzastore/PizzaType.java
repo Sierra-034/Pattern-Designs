@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.patterns.strategy;
+package sierra034.factory.pizzastore;
 
 /**
  *
  * @author Samuel Gomez
  */
-public class MallardDuck extends Duck {
-
-    @Override
-    public void display() {
-        System.out.println("Looks like a Mallard");
-    }    
+public interface PizzaType {
+    
+    int CHEESE = 0;
+    int VEGGIE = 1;
+    int CLAM = 2;
+    int PEPPERONI = 4;
 }
