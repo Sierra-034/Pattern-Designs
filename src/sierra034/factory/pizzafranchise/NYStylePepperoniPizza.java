@@ -9,10 +9,13 @@ package sierra034.factory.pizzafranchise;
  *
  * @author Samuel Gomez
  */
-public interface PizzaType {
+public class NYStylePepperoniPizza extends Pizza {
     
-    int CHEESE = 0;
-    int PEPPERONI = 1;
-    int CLAM = 2;
-    int VEGGIE = 4;
+    public NYStylePepperoniPizza() {
+        name = "NY Style Pepperoni pizza";
+        dough = "NY dough";
+        sauce = "Mariana sauce";
+        
+        toppings.add("Pepperoni");
+    }
 }

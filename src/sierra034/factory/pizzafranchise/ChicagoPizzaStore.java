@@ -9,15 +9,15 @@ package sierra034.factory.pizzafranchise;
  *
  * @author Samuel Gomez
  */
-public class NYPizzaStore extends PizzaStore {
+public class ChicagoPizzaStore extends PizzaStore {
 
     @Override
     protected Pizza createPizza(int type) throws NoPizzaException {
         switch(type) {
-            case PizzaType.CHEESE: return new NYStyleCheesePizza();
-            case PizzaType.PEPPERONI: return new NYStylePepperoniPizza();
-            case PizzaType.CLAM: return new NYStyleClamPizza();
-            case PizzaType.VEGGIE: return new NYStyleVeggiePizza();
+            case PizzaType.CHEESE: return new ChicagoStyleCheesePizza();
+            case PizzaType.PEPPERONI: return new ChicagoStylePepperoniPizza();
+            case PizzaType.CLAM: return new ChicagoStyleClamPizza();
+            case PizzaType.VEGGIE: return new ChicagoStyleVeggiePizza();
             default: throw new NoPizzaException();
         }
     }

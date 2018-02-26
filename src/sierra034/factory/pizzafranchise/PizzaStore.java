@@ -21,5 +21,5 @@ public abstract class PizzaStore {
         return pizza;
     }
 
-    public abstract Pizza createPizza(int type) throws NoPizzaException;
+    protected abstract Pizza createPizza(int type) throws NoPizzaException;
 }

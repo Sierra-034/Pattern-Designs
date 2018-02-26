@@ -12,7 +12,7 @@ package sierra034.factory.pizzafranchise;
 public class NYStyleCheesePizza extends Pizza {
     
     public NYStyleCheesePizza() {
-        name = "Ny Style Sauce and Cheese Pizza";
+        name = "NY Style Sauce and Cheese Pizza";
         dough = "Thin Crust Dough";
         sauce = "Mariana Sauce";
         
