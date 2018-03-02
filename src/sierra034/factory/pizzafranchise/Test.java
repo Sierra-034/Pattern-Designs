@@ -19,10 +19,10 @@ public class Test {
         PizzaStore nyPizzaStore = new NYPizzaStore();
         PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
         
-        Pizza pizza = nyPizzaStore.orderPizza(PizzaType.CHEESE_PIZZA);
+        Pizza pizza = nyPizzaStore.orderPizza(PizzaType.CHEESE);
         System.out.println("Ethan ordered a " + pizza.getName() + "\n");
         
-        pizza = chicagoPizzaStore.orderPizza(PizzaType.CHEESE_PIZZA);
+        pizza = chicagoPizzaStore.orderPizza(PizzaType.CHEESE);
         System.out.println("Joel ordered a " + pizza.getName() + "\n");
     }
     

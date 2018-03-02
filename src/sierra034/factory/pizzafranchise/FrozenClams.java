@@ -9,13 +9,6 @@ package sierra034.factory.pizzafranchise;
  *
  * @author Samuel Gomez
  */
-public class NYStyleClamPizza extends Pizza {
+public class FrozenClams extends Clams {
     
-    public NYStyleClamPizza() {
-        name = "NY Style Clam Pizza"; 
-        dough = "NY dough";
-        sauce = "Valentina sauce";
-        
-        toppings.add("Clam");
-    }
 }

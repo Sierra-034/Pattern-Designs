@@ -13,11 +13,10 @@ public class NYPizzaStore extends PizzaStore {
 
     @Override
     protected Pizza createPizza(int type) throws NoPizzaException {
+        PizzaIngredientFactory ingredientFactory = new NyPizzaIngredientFactory();
         switch(type) {
-            case PizzaType.CHEESE: return new NYStyleCheesePizza();
-            case PizzaType.PEPPERONI: return new NYStylePepperoniPizza();
-            case PizzaType.CLAM: return new NYStyleClamPizza();
-            case PizzaType.VEGGIE: return new NYStyleVeggiePizza();
+            case PizzaType.CHEESE: return new CheesePizza(ingredientFactory);
+            case PizzaType.CLAM: return new ClamPizza(ingredientFactory);
             default: throw new NoPizzaException();
         }
     }

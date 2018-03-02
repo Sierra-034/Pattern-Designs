@@ -13,19 +13,13 @@ import java.util.ArrayList;
  */
 public abstract class Pizza {
     
-    protected String name; 
-    protected String dough; 
-    protected String sauce;
-    protected ArrayList toppings = new ArrayList();
+    protected String name;
+    protected Dough dough;
+    protected Sauce sauce;
+    protected Cheese cheese;
+    protected Clams clam;
     
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding souce...");
-        System.out.println("Adding toppings: ");
-        for(int i = 0; i < toppings.size(); i++)
-            System.out.println("\t" + toppings.get(i));
-    }
+    public abstract void prepare();
     
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");

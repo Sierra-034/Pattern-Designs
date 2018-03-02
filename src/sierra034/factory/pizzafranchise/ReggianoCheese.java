@@ -9,6 +9,6 @@ package sierra034.factory.pizzafranchise;
  *
  * @author Samuel Gomez
  */
-public class ChicagoStyleVeggiePizza extends Pizza {
+public class ReggianoCheese extends Cheese {
     
 }

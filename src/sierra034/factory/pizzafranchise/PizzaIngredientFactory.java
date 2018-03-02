@@ -9,13 +9,10 @@ package sierra034.factory.pizzafranchise;
  *
  * @author Samuel Gomez
  */
-public class NYStyleCheesePizza extends Pizza {
+public interface PizzaIngredientFactory {
     
-    public NYStyleCheesePizza() {
-        name = "NY Style Sauce and Cheese Pizza";
-        dough = "Thin Crust Dough";
-        sauce = "Mariana Sauce";
-        
-        toppings.add("Grated Reggiano Cheese");
-    }
+    Dough createDough();
+    Sauce createSauce();
+    Cheese createCheese();
+    Clams createClam();
 }

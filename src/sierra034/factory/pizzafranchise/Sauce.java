@@ -9,13 +9,6 @@ package sierra034.factory.pizzafranchise;
  *
  * @author Samuel Gomez
  */
-public class NYStyleVeggiePizza extends Pizza {
+public abstract class Sauce {
     
-    public NYStyleVeggiePizza() {
-        name = "NY Style Veggie Pizza";
-        dough = "NY dough";
-        sauce = "Some sauce"; 
-
-        toppings.add("Veggies");
-    }
 }

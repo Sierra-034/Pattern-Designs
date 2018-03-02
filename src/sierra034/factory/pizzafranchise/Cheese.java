@@ -9,13 +9,6 @@ package sierra034.factory.pizzafranchise;
  *
  * @author Samuel Gomez
  */
-public class NYStylePepperoniPizza extends Pizza {
+public abstract class Cheese {
     
-    public NYStylePepperoniPizza() {
-        name = "NY Style Pepperoni pizza";
-        dough = "NY dough";
-        sauce = "Mariana sauce";
-        
-        toppings.add("Pepperoni");
-    }
 }

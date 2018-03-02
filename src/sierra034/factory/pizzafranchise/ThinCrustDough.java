@@ -9,6 +9,6 @@ package sierra034.factory.pizzafranchise;
  *
  * @author Samuel Gomez
  */
-public class ChicagoStyleClamPizza extends Pizza {
+public class ThinCrustDough extends Dough {
     
 }
