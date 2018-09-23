@@ -3,23 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sierra034.command.definition;
+package sierra034.command.swingexample;
 
 /**
  *
  * @author Samuel Gómez
  */
-public class ConcreteCommandB implements Command {
+public class NewFileCommand implements Command {
     
-    private Reciever request;
-    
-    public ConcreteCommandB(Reciever request) {
-        this.request = request;
+    private String name;
+    private NewFileAction newFilaAction = new NewFileAction();
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
     public void execute() {
-        request.actionB();
+        newFilaAction.newFile(name);
     }
     
 }

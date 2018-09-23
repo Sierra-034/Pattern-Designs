@@ -9,7 +9,7 @@ import sierra034.command.definition.Command;
 import sierra034.command.definition.ConcreteCommandA;
 import sierra034.command.definition.ConcreteCommandB;
 import sierra034.command.definition.Invoker;
-import sierra034.command.definition.Request;
+import sierra034.command.definition.Reciever;
 
 /**
  *
@@ -18,7 +18,7 @@ import sierra034.command.definition.Request;
 public class DefinitionDemo {
 
     public static void main(String[] args) {
-        Request request = new Request();
+        Reciever request = new Reciever();
         
         Command commandA = new ConcreteCommandA(request);
         Command commandB = new ConcreteCommandB(request);

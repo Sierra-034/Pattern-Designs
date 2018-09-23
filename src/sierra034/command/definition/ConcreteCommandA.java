@@ -11,9 +11,9 @@ package sierra034.command.definition;
  */
 public class ConcreteCommandA implements Command {
     
-    private Request request;
+    private Reciever request;
     
-    public ConcreteCommandA(Request request) {
+    public ConcreteCommandA(Reciever request) {
         this.request = request;
     }
 

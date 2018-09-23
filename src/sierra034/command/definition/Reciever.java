@@ -9,7 +9,7 @@ package sierra034.command.definition;
  *
  * @author Samuel Gómez
  */
-public class Request {
+public class Reciever {
     
     public void actionA() {
         System.out.println("Action 1");
